@@ -1,5 +1,4 @@
-/* COMMON STYLES */
-
+/* Common Styles */
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -20,8 +19,21 @@ button {
   text-decoration: none;
 }
 
-/* HEADER STYLES */
+/* Button */
+.order-service-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
 
+.order-service-button:hover,
+.order-service-button:focus {
+  background-color: #404bbf;
+}
+
+/* Header Styles */
 .page-header {
   background-color: #ffffff;
   margin: auto;
@@ -86,8 +98,7 @@ button {
   color: #404bbf;
 }
 
-/* HERO STYLES */
-
+/* Hero Styles */
 .page-title {
   background-color: #2e2f42;
   margin: auto;
@@ -101,21 +112,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-.order-service-button {
-  color: #ffffff;
-  background-color: #4d5ae5;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
-.order-service-button:hover,
-.order-service-button:focus {
-  background-color: #404bbf;
-}
-
-/* BENEFITS STYLES */
-
+/* Benefits Styles */
 .page-benefits-list-title {
   color: #2e2f42;
   font-size: 20px;
@@ -132,8 +129,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-/* OUR TEAM */
-
+/* Our Team Styles */
 .our-team {
   background-color: #f4f4fd;
 }
@@ -169,8 +165,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-/* OUR PORTFOLIO */
-
+/* Our Portfolio Styles */
 .portfolio {
   background-color: #f4f4fd;
 }
@@ -201,8 +196,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-/* FOOTER */
-
+/* Footer Styles */
 .footer {
   background-color: #2e2f42;
 }
